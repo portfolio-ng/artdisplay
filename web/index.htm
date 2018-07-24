@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zoomable Art Display</title>
+    <script src="../dada/dada.js"></script>
+    <script type="text/javascript" src='./lib/openseadragon/openseadragon.js'></script>
+    <script type="text/javascript" src='./lib/jquery-1.9.1.min.js'></script>
+</head>
+<body>
+    <h1>Zoomable Art Display</h1>
+    <div id="contentDiv" class="openseadragon"></div>
+  <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            // debugMode: true,
+            id: "contentDiv",
+            prefixUrl: "./lib/openseadragon/images/",
+            //tileSources: "./img/IMG_.dzi",
+            showNavigator:true,
+            showRotationControl:true
+        });
+  </script>
+</body>
+<style>
+      .openseadragon {
+          width: 800px;
+          height: 600px;
+      }
+
+      .buttons {
+        padding-left:250px;
+        float:left;
+      }
+      p {
+        padding-left:200px;
+      }
+</style>
+<script src="artdisp.js"></script>
+<footer>
+  <p> If you would like to purchase any of the pieces, please call: ***-***-**** ; or visit :<a href="https://www.___.com">Artists Website</a> </p>
+</footer>
+</html>
