@@ -2,7 +2,7 @@
 ####   dada/
   json dada store outputs from scripts/dada.py
 ##### img/
-###### dzi/
+#####   dzi/
   tiled image dada for openseadragon
 ###### dada/
   openseadragon dada
