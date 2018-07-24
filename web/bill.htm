@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bill Farmer Archive</title>
+    <script type="text/javascript" src='./lib/openseadragon/openseadragon.js'></script>
+    <script type="text/javascript" src='./lib/jquery-1.9.1.min.js'></script>
+<script src="../dada/data.js"></script>
+    <style type="text/css">
+
+      .openseadragon {
+          width: 800px;
+          height: 600px;
+      }
+    </style>
+</head>
+<body>
+    <h1>The Bill Farmer Archive</h1>
+    <div id="contentDiv" class="openseadragon"></div>
+  <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            // debugMode: true,
+            id: "contentDiv",
+            prefixUrl: "./lib/openseadragon/images/",
+            //tileSources: "./MagickSlicer/IMG_20150703_105745.dzi",
+            showNavigator:true,
+            showRotationControl:true
+        });
+
+
+  </script>
+</body>
+<script src="bill.js"></script>
+<style>
+
+      .buttons {
+        padding-left:250px;
+        float:left;
+      }
+      p {
+        padding-left:200px;
+      }
+
+</style>
+<footer>
+  <br />
+  <br />
+    <p> if you would like to purchase any of the pieces, please call The Antiquarium and Bill Farmer Gallery at: 402-917-1300</p>
+    <a href="https://www.facebook.com/The-Antiquarium-And-Bill-Farmer-Gallery-132728130199521/timeline/">Antiquarium</a>
+
+</footer>
+</html>
