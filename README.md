@@ -13,16 +13,18 @@ Generalised from the initial development for the Bill Farmer Gallery.
 * **scripts/**
   collection of python scripts for creating the naive json dada store
 *  **web/**
-  htm,js,css webfiles
-* **lib/**
-  * **MagickSlicer/**
-    library for tiling images into dzi format for openseadragon
-    License: MIT
-  * **openseadragon/**
-    FOSS image tiling software
-    License: New BSD
-* **sans/**
-  an html dump style version of the collection sans any extraneous libraries
+  generalised htm,js,css webfiles
+  * **lib/**
+    * **MagickSlicer/**
+      library for tiling images into dzi format for openseadragon
+      License: MIT
+    * **openseadragon/**
+      FOSS image tiling software
+      License: New BSD
+  * billf/
+    original Bill Farmer Gallery Display
+    * **sans/**
+       an html dump style version of the collection sans any extraneous libraries
 
 
 
