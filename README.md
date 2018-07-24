@@ -1,5 +1,5 @@
 An interactive zoom display of an artist's work.
-Generalised from the initial development for the Bill Farmer Gallery.
+Generalised from the initial development commissioned for the Bill Farmer Gallery.
 
 
 #### Directory Tree
