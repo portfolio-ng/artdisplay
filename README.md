@@ -21,10 +21,10 @@ Generalised from the initial development for the Bill Farmer Gallery.
     * **openseadragon/**
       FOSS image tiling software
       License: New BSD
-  * billf/
-    original Bill Farmer Gallery Display
-    * **sans/**
-       an html dump style version of the collection sans any extraneous libraries
+  * **billf/**
+      original Bill Farmer Gallery Display
+  * **sans/**
+      an html dump style version of the collection sans any extraneous libraries
 
 
 
