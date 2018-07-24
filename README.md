@@ -23,37 +23,30 @@
 
 
 #### JSON dada schema
-*  artiste[]
-  *  'ARTIST NAME'{}
-    *  works[]
-      *  title""
-          __'Title of the piece'
-      * desc""
-          __'Description of the imagery'
-      * tags""
-          __'comma seperated categorical tags'
-      * media""
-          __'media used in creating the piece'
-      * date""
-          __'Date of production of the piece'
-      * location""
-          __'Location of production of the piece'
-      * dim{}
-        * hei
-            __'Height'
-          wid
-            __'Width'
-          dep
-            __'Depth'
-          wei
-            __'Weight'
-                lsp: light stock paper
-                msp: medium stock paper
-                hsp: heavy stock paper
-##### types:
-    [] list
-    {} dict
-    "" string
+```javascript
+[
+  "ARTIST_NAME":{
+    "works": [
+      "title": 'STR: Title of the piece',
+      "desc": 'STR: Description of the imagery',
+      "tags": 'STR: comma seperated categorical tags',
+      "media": 'STR: media used in creating the piece',
+      "date": 'STR: Date of production of the piece',
+      "location": 'Location of production of the piece',
+      "dim": {
+        "hei": 'STR: Height and units',
+        "wid": 'STR: Width and units',
+        "dep": 'STR: Depth and units',
+        "wei": 'STR: Weight and units, or key reference'
+       }
+    ]
+  }
+]
+```
+###### Weight Key:
+* lsp": light stock paper"
+* msp: medium stock paper"
+* hsp: heavy stock paper"
 
 #### scripts/base.py commands 
 * ref : prints this reference list of commands
