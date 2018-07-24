@@ -6,7 +6,7 @@ Generalised from the initial development for the Bill Farmer Gallery.
 * **dada/** json dada store outputs from scripts/dada.py
 * **img/**
   * **dzi/** tiled image dada for openseadragon
-* **dada/** openseadragon dada
+  * **data/** openseadragon dada
 * **scripts/** collection of python scripts for creating the naive json dada store
 *  **web/**  generalised htm,js,css webfiles
   * **billf/** original Bill Farmer Gallery Display
