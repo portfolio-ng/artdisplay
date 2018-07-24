@@ -9,7 +9,7 @@ Generalised from the initial development for the Bill Farmer Gallery.
   * **data/** openseadragon dada
 * **scripts/** collection of python scripts for creating the naive json dada store
 *  **web/**  generalised htm,js,css webfiles
-  * **billf/** original Bill Farmer Gallery Display
+  * **billfarmer/** original Bill Farmer Gallery Display
   * **sans/** an html dump style version of the collection sans any extraneous libraries
   * **lib/**
     * **MagickSlicer/** library for tiling images into dzi format for openseadragon   License: MIT
