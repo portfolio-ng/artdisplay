@@ -1,3 +1,7 @@
+An interactive zoom display of an artist's work.
+Generalised from the initial development for the Bill Farmer Gallery.
+
+
 #### Directory Tree
 * **dada/**
   json dada store outputs from scripts/dada.py
@@ -44,7 +48,7 @@
 ]
 ```
 ###### Weight Key:
-* lsp": light stock paper"
+* lsp: light stock paper"
 * msp: medium stock paper"
 * hsp: heavy stock paper"
 
