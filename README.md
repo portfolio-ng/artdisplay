@@ -1,23 +1,23 @@
 ### Directory Tree
-####   dada/
+####  * dada/
   json dada store outputs from scripts/dada.py
-##### img/
-#####   dzi/
+##### * img/
+#####   * dzi/
   tiled image dada for openseadragon
-###### dada/
+###### * dada/
   openseadragon dada
-#### scripts/
+#### * scripts/
   collection of python scripts for creating the naive json dada store
-#### web/
+#### * web/
   htm,js,css webfiles
-##### lib/
-###### MagickSlicer/
+##### * lib/
+######   * MagickSlicer/
   library for tiling images into dzi format for openseadragon
   License: MIT
-###### openseadragon/
+######   * openseadragon/
   FOSS image tiling software
   License: New BSD
-##### sans/
+##### * sans/
   an html dump style version of the collection sans any extraneous libraries
 
 
